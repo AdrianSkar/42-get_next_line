@@ -1,0 +1,15 @@
+*.swp
+*.swo
+*.out*
+*.exe
+.DS_Store
+*.tmp
+*.temp
+.obsidian
+/.vscode/
+!/.vscode/settings.json
+*.a
+*.o
+*.test
+test.c
+*.gch
