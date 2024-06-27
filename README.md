@@ -31,7 +31,7 @@
 - `get_next_line` has an undefined behavior if the file to which the file descriptor corresponds has changed between calls, as long as `read()` hasn't reached the end of the file.
 - `get_next_line` has an undefined behavior if reading from a binary file. However, you can implement a logical way to handle this.
 #### Bonus
-- Use a single static variable
+- Use a single static variable.
 - Handle multiple file descriptors at the same time.
 
 ## 📚 Concept guide
@@ -64,7 +64,7 @@ typedef struct s_list
 `next`: Pointer to the next node in the linked list.
 `frag`: Buffer to store the read data from the file descriptor.
 `current`: Tracker pointer to hold the current position within frag. 
-`nl`: Index of the newline character in the buffer and flag; -1 if not found, -2 if `EOF`.
+`nl`: Index of the newline character within the buffer and flag; -1 if not found, -2 if `End Of File (EOF)` is reached.
 
 ### Main function
 The function checks if there is a proper head node, an existing line within the list, and creates nodes until a line is found or `EOF` if needed.
