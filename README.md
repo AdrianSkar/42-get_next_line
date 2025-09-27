@@ -1,5 +1,15 @@
 # `get_next_line`
 
+![42 School](https://img.shields.io/badge/42-Madrid-000000?style=flat&logo=42&logoColor=white)
+![Score](https://img.shields.io/badge/Score-125%2F100-success)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![Norminette](https://img.shields.io/badge/Norminette-passing-success)
+![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
+
+Efficient line reader implementation in C with multiple file descriptor support using linked lists | 42 School project
+
+---
+
 - [📔 Project overview](#-project-overview)
 - [📚 Concept guide](#-concept-guide)
 - [🔗 Linked list implementation](#-linked-list-implementation)
