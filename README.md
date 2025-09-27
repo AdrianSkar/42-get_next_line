@@ -6,6 +6,7 @@
 - [💡 Potential improvements](#-potential-improvements)
 - [📝 Notes](#-notes)
 - [🛠️ Compilation and testing](#️-compilation-and-testing)
+- [⚖️ License](#️-license)
   
 ## 📔 Project overview
 - **Objective**: Implement a function, `get_next_line`, that reads a file line by line from a given file descriptor. Repeatedly calling the function will read the file line by line until the end of the file is reached.
@@ -149,3 +150,8 @@ Bonus (main made for 3 files):
 ```bash
 ./a.out <file1> <file2> <file3> <number of lines to read>
 ```
+
+## ⚖️ License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE).
+You're free to study, modify, and share this code for educational purposes, but commercial use is prohibited.
